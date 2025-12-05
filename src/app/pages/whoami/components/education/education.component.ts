@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-education',
   imports: [],
   templateUrl: './education.component.html',
-  styleUrl: './education.component.css',
   host: { class: 'block' }
 })
 export class EducationComponent {

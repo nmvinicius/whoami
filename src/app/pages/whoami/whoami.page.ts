@@ -20,8 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
     EducationComponent,
     FooterComponent
   ],
-  templateUrl: './whoami.component.html',
-  styleUrl: './whoami.component.css',
+  templateUrl: './whoami.page.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class WhoamiComponent {}
+export class WhoamiPage {}

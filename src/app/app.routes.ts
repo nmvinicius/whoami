@@ -1,10 +1,14 @@
 import { Routes } from '@angular/router';
-import { WhoamiComponent } from './pages/whoami/whoami.component';
+import { WhoamiPage } from './pages/whoami/whoami.page';
 
 export const routes: Routes = [
   {
     path: '',
-    component: WhoamiComponent,
+    component: WhoamiPage,
     title: 'Whoami | Vinicius Nunes Martins'
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
