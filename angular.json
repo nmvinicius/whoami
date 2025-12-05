@@ -27,7 +27,11 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+            "polyfills": [
+              "@angular/localize/init"
+            ],
+            "localize": true
           },
           "configurations": {
             "production": {
@@ -67,6 +71,13 @@
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "pt-BR": "src/locales/pt-BR.xlf",
+          "pt-PT": "src/locales/pt-PT.xlf"
         }
       }
     }
