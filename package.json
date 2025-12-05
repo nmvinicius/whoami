@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build:pt && npm run build:en && npm run build:copy-root",
-    "build:pt": "ng build --configuration=production,pt --base-href /whoami/",
-    "build:en": "ng build --configuration=production,en-US --base-href /whoami/en-US/ --delete-output-path=false",
-    "build:copy-root": "cp -r dist/whoami/browser/pt/* dist/whoami/browser/",
+    "build": "npm run build:en && npm run build:pt && npm run build:copy-root",
+    "build:en": "ng build --configuration=production,en-US --base-href /whoami/",
+    "build:pt": "ng build --configuration=production,pt --base-href /whoami/pt-BR/ --delete-output-path=false",
+    "build:copy-root": "cp -r dist/whoami/browser/en-US/* dist/whoami/browser/ && mv dist/whoami/browser/pt dist/whoami/browser/pt-BR",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prepare": "husky"
