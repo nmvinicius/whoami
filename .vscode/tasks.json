@@ -21,6 +21,44 @@
       }
     },
     {
+      "type": "shell",
+      "label": "npm: start:pt",
+      "command": "ng serve --configuration=pt",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "(.*?)"
+          },
+          "endsPattern": {
+            "regexp": "bundle generation complete"
+          }
+        }
+      }
+    },
+    {
+      "type": "shell",
+      "label": "npm: start:en-US",
+      "command": "ng serve --configuration=en-US --port 4201",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "(.*?)"
+          },
+          "endsPattern": {
+            "regexp": "bundle generation complete"
+          }
+        }
+      }
+    },
+    {
       "type": "npm",
       "script": "test",
       "isBackground": true,

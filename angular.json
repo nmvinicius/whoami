@@ -53,6 +53,12 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "pt": {
+              "localize": ["pt"]
+            },
+            "en-US": {
+              "localize": ["en-US"]
             }
           },
           "defaultConfiguration": "production"
@@ -65,6 +71,12 @@
             },
             "development": {
               "buildTarget": "whoami:build:development"
+            },
+            "pt": {
+              "buildTarget": "whoami:build:development,pt"
+            },
+            "en-US": {
+              "buildTarget": "whoami:build:development,en-US"
             }
           },
           "defaultConfiguration": "development"
@@ -74,10 +86,9 @@
         }
       },
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "pt",
         "locales": {
-          "pt-BR": "src/locales/pt-BR.xlf",
-          "pt-PT": "src/locales/pt-PT.xlf"
+          "en-US": "src/locales/messages.en.xlf"
         }
       }
     }

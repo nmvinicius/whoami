@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8278999373934337971" datatype="html">
+        <source> DevSecOps Engineer | Membro do Comitê de Segurança da Informação | Backend Developer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2827625328832187810" datatype="html">
+        <source>São Paulo - SP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4461555567724559992" datatype="html">
+        <source>Resumo Profissional</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7556886968344612219" datatype="html">
+        <source> Atuo como <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-indigo-400&quot;&gt;"/>DevSecOps na Softfocus<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, com papel-chave na <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>migração para Kubernetes<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> e na implementação de <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>sistemas de autenticação centralizada<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Minha equipe contribuiu para a transição do banco de dados para uma solução gerenciada internamente, <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>reforçando a segurança e eficiência operacional<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. Meu foco inclui o desenvolvimento de APIs para otimizar processos de desenvolvimento e operações, além de trabalhar no comitê de segurança da informação para fortalecer as práticas de segurança. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6623313007247315208" datatype="html">
+        <source>Experiência</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7927188298033470768" datatype="html">
+        <source>DevSecOps &amp; Membro do Comitê de Segurança</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3014390413236347805" datatype="html">
+        <source>Liderou a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>migração estratégica para multi-cloud<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Oracle Cloud/OKE e AWS/EKS).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6020705476461016871" datatype="html">
+        <source>Desenhou e implementou um <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>super cluster multi-cloud<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (EKS/OKE) com Terraform e Karmada, garantindo alta disponibilidade.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2193336975709153453" datatype="html">
+        <source>Implementou o <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>KeyCloak<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> como plataforma centralizada de SSO.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3732733008719728273" datatype="html">
+        <source>Estruturou um <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>pipeline de segurança robusto<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, automatizando SAST (Sonar/Horusec) e DAST (ZAP) integrados ao ELK.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9077908556443785352" datatype="html">
+        <source>Conduziu a migração de AWS RDS para <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Stackgres<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> e participou da criação de um cluster Kubernetes híbrido.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3558817957904883984" datatype="html">
+        <source>Atuação ativa no comitê de GDPR, garantindo conformidade com <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>LGPD, NIST, CIS Controls, ISO 27000 e OWASP<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3127109740479036931" datatype="html">
+        <source>Desenvolveu soluções White Label para aquisição de clientes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3480296159575877188" datatype="html">
+        <source>Trabalhou com <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Python, Django, Java e Spring<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> em fluxos de onboarding e validação de dados sensíveis.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4081414519740696353" datatype="html">
+        <source>Software Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1089236727680312134" datatype="html">
+        <source>Desenvolveu o <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>motor de cálculo e simulação<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> para o mercado de energia livre (Python, FastAPI, AWS).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8539909011887540592" datatype="html">
+        <source>Construiu solução de processamento de contas de energia com <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>OCR (AWS Textract)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">118,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="256091440906212349" datatype="html">
+        <source>Desenvolveu o motor FIDC utilizando <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>C# e .NET Core<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8869515092116364436" datatype="html">
+        <source>Projetou plataforma de gerenciamento de Pet Shop com apps móveis (React Native) e web (React), utilizando Express.js e MongoDB.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6324063746971534050" datatype="html">
+        <source>Habilidades Técnicas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6609611808602486141" datatype="html">
+        <source>DevSecOps &amp; Infraestrutura</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">138,139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2666789888634584538" datatype="html">
+        <source>Segurança &amp; Conformidade</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">150,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2081437614920152704" datatype="html">
+        <source>Linguagens &amp; Frameworks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">163,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7836531349502808418" datatype="html">
+        <source>Cloud &amp; Dados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">174,175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6591557850825144908" datatype="html">
+        <source>Projetos de Destaque</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">192,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5753201174040409442" datatype="html">
+        <source>Motor de Cálculo de Energia</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">200,201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2152338812620674261" datatype="html">
+        <source>Sistema de simulação para o mercado de energia livre, processando grandes volumes de dados.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">201,202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3329717463338010985" datatype="html">
+        <source>Plataforma Pet Shop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">208,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9162807577916936592" datatype="html">
+        <source>Solução completa de gerenciamento com apps móveis e web, integrando agendamentos e vendas.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">209,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1911390180773218154" datatype="html">
+        <source>Custom Operating System</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">216,217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8886563164078496313" datatype="html">
+        <source>Projeto acadêmico focado em entender os fundamentos de sistemas operacionais e kernel.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">217,218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6377607932033367738" datatype="html">
+        <source>Educação &amp; Certificações</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">226,227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4834122051607235489" datatype="html">
+        <source>Bacharelado em Ciência da Computação</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">232,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8499030219946038982" datatype="html">
+        <source>Universidade Federal de Mato Grosso do Sul</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">233,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6491779514584550167" datatype="html">
+        <source>Curso Técnico em Informática/Software</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">240,241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="468038397064656464" datatype="html">
+        <source>Escola Técnica Estadual (São Paulo)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">241,242</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3814776741485798353" datatype="html">
+        <source>Certificações &amp; Conquistas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">247,248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7864636856542286265" datatype="html">
+        <source>LARC/CBR 2017 e 2016 (Robótica)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">249,250</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="676531969549425679" datatype="html">
+        <source>EF SET Score</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">250,251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5708512657934483857" datatype="html">
+        <source>Maratona de Programação 2019</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">251,252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2596153296174080850" datatype="html">
+        <source>© <x id="INTERPOLATION" equiv-text="{{ 2025 }}"/> Vinícius Nunes Martins. All rights reserved.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/whoami.component.html</context>
+          <context context-type="linenumber">260,262</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
