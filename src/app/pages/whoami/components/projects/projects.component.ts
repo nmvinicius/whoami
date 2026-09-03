@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {
   bootstrapCloudCheck,
   bootstrapCpu,
-  bootstrapEmojiSmile,
   bootstrapFileEarmarkText,
   bootstrapGraphUpArrow,
   bootstrapLightningCharge,
@@ -19,7 +18,6 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
   viewProviders: [
     provideIcons({
       bootstrapLightningCharge,
-      bootstrapEmojiSmile,
       bootstrapCpu,
       bootstrapCloudCheck,
       bootstrapShieldLock,

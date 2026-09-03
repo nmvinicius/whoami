@@ -26,7 +26,7 @@
           <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2614835772507039482" datatype="html">
+      <trans-unit id="1426640856918190685" datatype="html">
         <source>Technical Course in Informatics/Software</source>
         <target>Curso Técnico en Informática/Software</target>
         <context-group purpose="location">
@@ -50,7 +50,7 @@
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5516592782444832051" datatype="html">
+      <trans-unit id="7209180581569327194" datatype="html">
         <source>LARC/CBR 2017 and 2016 (Robotics)</source>
         <target>LARC/CBR 2017 y 2016 (Robótica)</target>
         <context-group purpose="location">
@@ -58,7 +58,7 @@
           <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="676531969549425679" datatype="html">
+      <trans-unit id="7724442688954417465" datatype="html">
         <source>EF SET Score</source>
         <target>Puntuación EF SET</target>
         <context-group purpose="location">
@@ -66,7 +66,7 @@
           <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7975652035703088516" datatype="html">
+      <trans-unit id="6261219694878199209" datatype="html">
         <source>Programming Marathon 2019</source>
         <target>Maratón de Programación 2019</target>
         <context-group purpose="location">
@@ -90,7 +90,7 @@
           <context context-type="linenumber">16,17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8018636986458994353" datatype="html">
+      <trans-unit id="7084921199154528964" datatype="html">
         <source>Led the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>strategic multi-cloud migration<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Oracle Cloud/OKE and AWS/EKS).</source>
         <target>Lideró la <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>migración estratégica multi-nube<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Oracle Cloud/OKE y AWS/EKS).</target>
         <context-group purpose="location">
@@ -98,7 +98,7 @@
           <context context-type="linenumber">23,24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8200350368404661510" datatype="html">
+      <trans-unit id="1203829055366879216" datatype="html">
         <source>Designed and implemented a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>multi-cloud super cluster<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (EKS/OKE) with Terraform and Karmada, ensuring high availability.</source>
         <target>Diseñó e implementó un <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>super cluster multi-nube<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (EKS/OKE) con Terraform y Karmada, garantizando alta disponibilidad.</target>
         <context-group purpose="location">
@@ -106,7 +106,7 @@
           <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="200324655184452041" datatype="html">
+      <trans-unit id="4780306089354590976" datatype="html">
         <source>Implemented <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Keycloak<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> as a centralized SSO platform.</source>
         <target>Implementó <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Keycloak<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> como una plataforma SSO centralizada.</target>
         <context-group purpose="location">
@@ -114,7 +114,7 @@
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5920954493646365671" datatype="html">
+      <trans-unit id="425959641246771905" datatype="html">
         <source>Structured a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>robust security pipeline<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, automating SAST (Sonar/Horusec) and DAST (ZAP) integrated with ELK.</source>
         <target>Estructuró un <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>pipeline de seguridad robusto<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, automatizando SAST (Sonar/Horusec) y DAST (ZAP) integrados con ELK.</target>
         <context-group purpose="location">
@@ -122,7 +122,7 @@
           <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1144780548478991077" datatype="html">
+      <trans-unit id="6749706570355508787" datatype="html">
         <source>Led the migration from AWS RDS to <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Stackgres<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and participated in the creation of a hybrid Kubernetes cluster.</source>
         <target>Lideró la migración de AWS RDS a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Stackgres<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> y participó en la creación de un clúster Kubernetes híbrido.</target>
         <context-group purpose="location">
@@ -130,7 +130,7 @@
           <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1521184301100065667" datatype="html">
+      <trans-unit id="5121287610629245701" datatype="html">
         <source>Active role in the GDPR committee, ensuring compliance with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>LGPD, NIST, CIS Controls, ISO 27000, and OWASP<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
         <target>Papel activo en el comité de GDPR, garantizando el cumplimiento con <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>LGPD, NIST, CIS Controls, ISO 27000 y OWASP<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
         <context-group purpose="location">
@@ -146,7 +146,7 @@
           <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5129388590048541683" datatype="html">
+      <trans-unit id="1357481266066823063" datatype="html">
         <source>Worked with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Python, Django, Java, and Spring<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> on onboarding flows and sensitive data validation.</source>
         <target>Trabajó con <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Python, Django, Java y Spring<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> en flujos de incorporación y validación de datos sensibles.</target>
         <context-group purpose="location">
@@ -162,7 +162,7 @@
           <context context-type="linenumber">48,49</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4660524869822374588" datatype="html">
+      <trans-unit id="8062054362958689470" datatype="html">
         <source>Developed the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>calculation and simulation engine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> for the free energy market (Python, FastAPI, AWS).</source>
         <target>Desarrolló el <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>motor de cálculo y simulación<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> para el mercado libre de energía (Python, FastAPI, AWS).</target>
         <context-group purpose="location">
@@ -170,7 +170,7 @@
           <context context-type="linenumber">55,56</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2434680293174752220" datatype="html">
+      <trans-unit id="5957883445653112923" datatype="html">
         <source>Built an energy bill processing solution with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>OCR (AWS Textract)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
         <target>Construyó una solución de procesamiento de facturas de energía con <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>OCR (AWS Textract)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
         <context-group purpose="location">
@@ -178,7 +178,7 @@
           <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4621559586946846905" datatype="html">
+      <trans-unit id="7750925177710358463" datatype="html">
         <source>Developed the FIDC engine using <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>C# and .NET Core<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
         <target>Desarrolló el motor FIDC usando <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>C# y .NET Core<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</target>
         <context-group purpose="location">
@@ -218,16 +218,16 @@
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5375744195399715737" datatype="html">
-        <source>Energy Calculation Engine</source>
+      <trans-unit id="5458681948345457094" datatype="html">
+        <source> Energy Calculation Engine </source>
         <target>Motor de Cálculo de Energía</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8608727589470078286" datatype="html">
-        <source>Simulation system for the free energy market, processing large volumes of data.</source>
+      <trans-unit id="8267478356019757021" datatype="html">
+        <source> Simulation system for the free energy market, processing large volumes of data. </source>
         <target>Sistema de simulación para el mercado libre de energía, procesando grandes volúmenes de datos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
@@ -250,16 +250,16 @@
           <context context-type="linenumber">21,22</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1911390180773218154" datatype="html">
-        <source>Custom Operating System</source>
+      <trans-unit id="3080004775029339332" datatype="html">
+        <source> Custom Operating System </source>
         <target>Sistema Operativo Personalizado</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
           <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2345270521372065696" datatype="html">
-        <source>Academic project focused on understanding operating system and kernel fundamentals.</source>
+      <trans-unit id="8970996769969269911" datatype="html">
+        <source> Academic project focused on understanding operating system and kernel fundamentals. </source>
         <target>Proyecto académico centrado en la comprensión de los fundamentos del sistema operativo y del kernel.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
@@ -274,7 +274,7 @@
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7154725178623032368" datatype="html">
+      <trans-unit id="1179219072176396879" datatype="html">
         <source>Cloud &amp; Infrastructure</source>
         <target>Nube e Infraestructura</target>
         <context-group purpose="location">
@@ -282,7 +282,7 @@
           <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="825407853446795559" datatype="html">
+      <trans-unit id="5115076183184347824" datatype="html">
         <source>Security &amp; Compliance</source>
         <target>Seguridad y Cumplimiento</target>
         <context-group purpose="location">
@@ -290,7 +290,7 @@
           <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5388919734763848750" datatype="html">
+      <trans-unit id="5545973378054357469" datatype="html">
         <source>Data &amp; Messaging</source>
         <target>Datos y Mensajería</target>
         <context-group purpose="location">
@@ -298,7 +298,7 @@
           <context context-type="linenumber">38,39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8743664484276132976" datatype="html">
+      <trans-unit id="3666531370399542867" datatype="html">
         <source>Languages &amp; Frameworks</source>
         <target>Lenguajes y Frameworks</target>
         <context-group purpose="location">
@@ -321,6 +321,182 @@
           <context context-type="sourcefile">src/app/pages/whoami/components/summary/summary.component.html</context>
           <context context-type="linenumber">8,12</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="6381830437211553648" datatype="html">
+        <source> BTG Pactual · Free Energy Market </source>
+        <target>BTG Pactual · Mercado Libre de Energía</target>
+      </trans-unit>
+      <trans-unit id="3192064686378185385" datatype="html">
+        <source> Architecture </source>
+        <target>Arquitectura</target>
+      </trans-unit>
+      <trans-unit id="2942347007463181521" datatype="html">
+        <source> Simulation and pricing engine exposed as a Python/FastAPI service on AWS, decoupling data ingestion from calculation routines to keep the core testable and scalable. </source>
+        <target>Motor de simulación y tarificación expuesto como servicio Python/FastAPI en AWS, desacoplando la ingesta de datos de las rutinas de cálculo para mantener el núcleo testeable y escalable.</target>
+      </trans-unit>
+      <trans-unit id="8329806421103609321" datatype="html">
+        <source> Challenges resolved </source>
+        <target>Desafíos resueltos</target>
+      </trans-unit>
+      <trans-unit id="766748540568495656" datatype="html">
+        <source> Processing high data volumes without slowing down each simulation run. </source>
+        <target>Procesar grandes volúmenes de datos sin ralentizar cada ejecución de simulación.</target>
+      </trans-unit>
+      <trans-unit id="8808483580471278831" datatype="html">
+        <source> Keeping calculation models maintainable as market rules changed frequently. </source>
+        <target>Mantener los modelos de cálculo sostenibles a medida que las reglas del mercado cambiaban con frecuencia.</target>
+      </trans-unit>
+      <trans-unit id="5863280141007311392" datatype="html">
+        <source> Impact </source>
+        <target>Impacto</target>
+      </trans-unit>
+      <trans-unit id="4714644074831738924" datatype="html">
+        <source> Shorter turnaround for market scenario runs, supporting faster decisions. </source>
+        <target>Menor tiempo de ciclo en las ejecuciones de escenarios de mercado, respaldando decisiones más rápidas.</target>
+      </trans-unit>
+      <trans-unit id="850268173672518847" datatype="html">
+        <source> Multi-Cloud Kubernetes Architecture </source>
+        <target>Arquitectura Kubernetes Multi-Nube</target>
+      </trans-unit>
+      <trans-unit id="8834351063582363937" datatype="html">
+        <source> Softfocus · Cloud Infrastructure </source>
+        <target>Softfocus · Infraestructura de Nube</target>
+      </trans-unit>
+      <trans-unit id="2520828241069846694" datatype="html">
+        <source> Orchestration of EKS and OKE clusters using Terraform and Karmada for high availability. </source>
+        <target>Orquestación de clústeres EKS y OKE con Terraform y Karmada para alta disponibilidad.</target>
+      </trans-unit>
+      <trans-unit id="8638724087670252873" datatype="html">
+        <source> Federated multi-cloud platform spanning AWS EKS and Oracle OKE, provisioned as infrastructure as code with Terraform and governed by a Karmada control plane for high availability. </source>
+        <target>Plataforma multinube federada que abarca AWS EKS y Oracle OKE, aprovisionada como infraestructura como código con Terraform y gobernada por un plano de control Karmada para alta disponibilidad.</target>
+      </trans-unit>
+      <trans-unit id="3516638947968437823" datatype="html">
+        <source> Removing dependency on a single cloud provider without duplicating operational effort. </source>
+        <target>Eliminar la dependencia de un único proveedor de nube sin duplicar el esfuerzo operativo.</target>
+      </trans-unit>
+      <trans-unit id="8806156657154746460" datatype="html">
+        <source> Keeping clusters reproducible and auditable through infrastructure as code. </source>
+        <target>Mantener los clústeres reproducibles y auditables mediante infraestructura como código.</target>
+      </trans-unit>
+      <trans-unit id="5465156204295970641" datatype="html">
+        <source> Workloads stay available even if an entire cloud provider fails. </source>
+        <target>Las cargas de trabajo siguen disponibles incluso si falla un proveedor de nube completo.</target>
+      </trans-unit>
+      <trans-unit id="4291373385152872018" datatype="html">
+        <source> One operating model to deploy across different providers. </source>
+        <target>Un único modelo operativo para desplegar en distintos proveedores.</target>
+      </trans-unit>
+      <trans-unit id="5256509648157597619" datatype="html">
+        <source>Kernel &amp; Systems</source>
+        <target>Kernel y Sistemas</target>
+      </trans-unit>
+      <trans-unit id="3373448043796585805" datatype="html">
+        <source> Educational kernel written from scratch, covering boot, memory management, process scheduling and interrupts directly on the hardware. </source>
+        <target>Kernel educativo escrito desde cero, que cubre arranque, gestión de memoria, planificación de procesos e interrupciones directamente sobre el hardware.</target>
+      </trans-unit>
+      <trans-unit id="1797496407198074278" datatype="html">
+        <source> Implementing context switching, memory and device handling with no OS underneath. </source>
+        <target>Implementar cambio de contexto, memoria y manejo de dispositivos sin un SO debajo.</target>
+      </trans-unit>
+      <trans-unit id="3839511021509740642" datatype="html">
+        <source> Debugging low-level code without the usual runtime tooling. </source>
+        <target>Depurar código de bajo nivel sin las herramientas de ejecución habituales.</target>
+      </trans-unit>
+      <trans-unit id="1640898422539047969" datatype="html">
+        <source> Hands-on understanding of how operating systems and kernels really work. </source>
+        <target>Comprensión práctica de cómo funcionan realmente los sistemas operativos y los kernels.</target>
+      </trans-unit>
+      <trans-unit id="5898801417302858615" datatype="html">
+        <source> Security Pipeline Automation </source>
+        <target>Automatización del Pipeline de Seguridad</target>
+      </trans-unit>
+      <trans-unit id="4082971717712907580" datatype="html">
+        <source>Softfocus · DevSecOps</source>
+        <target>Softfocus · DevSecOps</target>
+      </trans-unit>
+      <trans-unit id="8806652105555430038" datatype="html">
+        <source> Automated SAST/DAST pipelines and centralized authentication ensuring GDPR compliance. </source>
+        <target>Pipelines automatizados de SAST/DAST y autenticación centralizada que garantizan el cumplimiento del RGPD.</target>
+      </trans-unit>
+      <trans-unit id="5246366265154190282" datatype="html">
+        <source> Security checks embedded in the delivery flow — SAST with Sonar/Horusec and DAST with OWASP ZAP — with results centralized in ELK and identity unified through Keycloak single sign-on. </source>
+        <target>Comprobaciones de seguridad integradas en el flujo de entrega — SAST con Sonar/Horusec y DAST con OWASP ZAP — con resultados centralizados en ELK e identidad unificada mediante Keycloak (inicio de sesión único).</target>
+      </trans-unit>
+      <trans-unit id="257245278175410080" datatype="html">
+        <source> Catching vulnerabilities early without slowing development teams down. </source>
+        <target>Detectar vulnerabilidades de forma temprana sin frenar a los equipos de desarrollo.</target>
+      </trans-unit>
+      <trans-unit id="2486416999311951039" datatype="html">
+        <source> Centralizing authentication and audit evidence across many applications. </source>
+        <target>Centralizar la autenticación y las evidencias de auditoría en muchas aplicaciones.</target>
+      </trans-unit>
+      <trans-unit id="9012422475973042885" datatype="html">
+        <source> Security is verified automatically on every delivery. </source>
+        <target>La seguridad se verifica automáticamente en cada entrega.</target>
+      </trans-unit>
+      <trans-unit id="3591153759683986891" datatype="html">
+        <source> A consistent path toward LGPD, NIST, CIS, ISO 27001 and OWASP compliance. </source>
+        <target>Un camino consistente hacia el cumplimiento de LGPD, NIST, CIS, ISO 27001 y OWASP.</target>
+      </trans-unit>
+      <trans-unit id="4961040005995488723" datatype="html">
+        <source> Automated OCR Data Pipeline </source>
+        <target>Pipeline Automatizado de Datos con OCR</target>
+      </trans-unit>
+      <trans-unit id="6627141583057890741" datatype="html">
+        <source> BTG Pactual · Data Pipeline </source>
+        <target>BTG Pactual · Pipeline de Datos</target>
+      </trans-unit>
+      <trans-unit id="4295873786311153787" datatype="html">
+        <source> Energy bill processing solution using Amazon Textract and Gaussian curve algorithms for data adjustment. </source>
+        <target>Solución de procesamiento de facturas de energía con Amazon Textract y algoritmos de curva gaussiana para el ajuste de datos.</target>
+      </trans-unit>
+      <trans-unit id="913531897509983906" datatype="html">
+        <source> Document pipeline that reads energy bills with Amazon Textract and refines the extracted values using Gaussian-curve adjustment algorithms. </source>
+        <target>Pipeline de documentos que lee facturas de energía con Amazon Textract y refina los valores extraídos mediante algoritmos de ajuste por curva gaussiana.</target>
+      </trans-unit>
+      <trans-unit id="379373429983840956" datatype="html">
+        <source> Bills arrive in varied layouts, which reduces raw OCR accuracy. </source>
+        <target>Las facturas llegan en formatos variados, lo que reduce la precisión bruta del OCR.</target>
+      </trans-unit>
+      <trans-unit id="2735842397257005644" datatype="html">
+        <source> Making extracted data reliable enough for fully automated downstream steps. </source>
+        <target>Hacer que los datos extraídos sean lo bastante fiables para pasos posteriores totalmente automatizados.</target>
+      </trans-unit>
+      <trans-unit id="7809276219132301674" datatype="html">
+        <source> Higher extraction accuracy with less manual correction effort. </source>
+        <target>Mayor precisión de extracción con menos esfuerzo manual de corrección.</target>
+      </trans-unit>
+      <trans-unit id="1584971729600236783" datatype="html">
+        <source>FIDC Credit Engine</source>
+        <target>Motor de Crédito FIDC</target>
+      </trans-unit>
+      <trans-unit id="322526776638565537" datatype="html">
+        <source>BTG Pactual · Fintech</source>
+        <target>BTG Pactual · Fintech</target>
+      </trans-unit>
+      <trans-unit id="5412296320772301129" datatype="html">
+        <source> High-performance backend for credit rights validation and bank integration using .NET Core and AWS. </source>
+        <target>Backend de alto rendimiento para la validación de derechos de crédito y la integración bancaria con .NET Core y AWS.</target>
+      </trans-unit>
+      <trans-unit id="422432292522963333" datatype="html">
+        <source> High-throughput validation backend for credit rights written in C#/.NET Core on AWS and integrated with banking systems for receivables checks. </source>
+        <target>Backend de alto rendimiento para la validación de derechos de crédito escrito en C#/.NET Core en AWS e integrado con sistemas bancarios para la verificación de recibibles.</target>
+      </trans-unit>
+      <trans-unit id="2352901514160738622" datatype="html">
+        <source> Validating large volumes of credit rights under tight time constraints. </source>
+        <target>Validar grandes volúmenes de derechos de crédito con plazos ajustados.</target>
+      </trans-unit>
+      <trans-unit id="4982503239993850996" datatype="html">
+        <source> Integrating reliably with several external banking APIs. </source>
+        <target>Integrar de forma fiable con varias APIs bancarias externas.</target>
+      </trans-unit>
+      <trans-unit id="5763308257238922532" datatype="html">
+        <source> Faster and safer credit validation cycles for fund operations. </source>
+        <target>Ciclos de validación de crédito más rápidos y seguros para las operaciones de los fondos.</target>
+      </trans-unit>
+      <trans-unit id="1666220626053137994" datatype="html">
+        <source> Choose Language </source>
+        <target>Elegir Idioma</target>
       </trans-unit>
     </body>
   </file>

@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "i18n:extract": "ng extract-i18n --output-path src/locales",
+    "i18n:coverage": "sh scripts/i18n-coverage.sh",
     "prepare": "husky"
   },
   "prettier": {

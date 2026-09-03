@@ -6,165 +6,165 @@
         <source>Education &amp; Certifications</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2594909979758808725" datatype="html">
         <source>Bachelor of Computer Science</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">10,11</context>
+          <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8831609107797088319" datatype="html">
         <source>Federal University of Mato Grosso do Sul</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">11,12</context>
+          <context context-type="linenumber">16,17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2614835772507039482" datatype="html">
-        <source>Technical Course in Informatics/Software</source>
+      <trans-unit id="1426640856918190685" datatype="html">
+        <source> Technical Course in Informatics/Software </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">18,19</context>
+          <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="803299291250412406" datatype="html">
         <source>State Technical School (São Paulo)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">19,20</context>
+          <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5565848219395632152" datatype="html">
         <source>Certifications &amp; Achievements</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">25,26</context>
+          <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5516592782444832051" datatype="html">
-        <source>LARC/CBR 2017 and 2016 (Robotics)</source>
+      <trans-unit id="7209180581569327194" datatype="html">
+        <source> LARC/CBR 2017 and 2016 (Robotics) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">27,28</context>
+          <context context-type="linenumber">40,41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="676531969549425679" datatype="html">
-        <source>EF SET Score</source>
+      <trans-unit id="7724442688954417465" datatype="html">
+        <source> EF SET Score </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">28,29</context>
+          <context context-type="linenumber">46,47</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7975652035703088516" datatype="html">
-        <source>Programming Marathon 2019</source>
+      <trans-unit id="6261219694878199209" datatype="html">
+        <source> Programming Marathon 2019 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/education/education.component.html</context>
-          <context context-type="linenumber">29,30</context>
+          <context context-type="linenumber">52,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3398353192845179101" datatype="html">
         <source>Experience</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6548194585330914882" datatype="html">
         <source>DevSecOps &amp; Security Committee Member</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8018636986458994353" datatype="html">
-        <source>Led the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>strategic multi-cloud migration<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Oracle Cloud/OKE and AWS/EKS).</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">23,24</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8200350368404661510" datatype="html">
-        <source>Designed and implemented a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>multi-cloud super cluster<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (EKS/OKE) with Terraform and Karmada, ensuring high availability.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">24,25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="200324655184452041" datatype="html">
-        <source>Implemented <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Keycloak<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> as a centralized SSO platform.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">25,26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5920954493646365671" datatype="html">
-        <source>Structured a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>robust security pipeline<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, automating SAST (Sonar/Horusec) and DAST (ZAP) integrated with ELK.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">26,27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1144780548478991077" datatype="html">
-        <source>Led the migration from AWS RDS to <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Stackgres<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and participated in the creation of a hybrid Kubernetes cluster.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">27,28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1521184301100065667" datatype="html">
-        <source>Active role in the GDPR committee, ensuring compliance with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>LGPD, NIST, CIS Controls, ISO 27000, and OWASP<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+      <trans-unit id="7084921199154528964" datatype="html">
+        <source> Led the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>strategic multi-cloud migration<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (Oracle Cloud/OKE and AWS/EKS). </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
           <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1203829055366879216" datatype="html">
+        <source> Designed and implemented a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>multi-cloud super cluster<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> (EKS/OKE) with Terraform and Karmada, ensuring high availability. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4780306089354590976" datatype="html">
+        <source> Implemented <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Keycloak<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> as a centralized SSO platform. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="425959641246771905" datatype="html">
+        <source> Structured a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>robust security pipeline<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, automating SAST (Sonar/Horusec) and DAST (ZAP) integrated with ELK. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6749706570355508787" datatype="html">
+        <source> Led the migration from AWS RDS to <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Stackgres<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and participated in the creation of a hybrid Kubernetes cluster. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5121287610629245701" datatype="html">
+        <source> Active role in the GDPR committee, ensuring compliance with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>LGPD, NIST, CIS Controls, ISO 27000, and OWASP<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
+          <context context-type="linenumber">48,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4878453823161076756" datatype="html">
         <source>Developed White Label solutions for customer acquisition.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">34,35</context>
+          <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5129388590048541683" datatype="html">
-        <source>Worked with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Python, Django, Java, and Spring<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> on onboarding flows and sensitive data validation.</source>
+      <trans-unit id="1357481266066823063" datatype="html">
+        <source> Worked with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>Python, Django, Java, and Spring<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> on onboarding flows and sensitive data validation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">35,36</context>
+          <context context-type="linenumber">58,60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4081414519740696353" datatype="html">
         <source>Software Developer</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">48,49</context>
+          <context context-type="linenumber">75,76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4660524869822374588" datatype="html">
-        <source>Developed the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>calculation and simulation engine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> for the free energy market (Python, FastAPI, AWS).</source>
+      <trans-unit id="8062054362958689470" datatype="html">
+        <source> Developed the <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>calculation and simulation engine<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> for the free energy market (Python, FastAPI, AWS). </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">55,56</context>
+          <context context-type="linenumber">83,85</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2434680293174752220" datatype="html">
-        <source>Built an energy bill processing solution with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>OCR (AWS Textract)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+      <trans-unit id="5957883445653112923" datatype="html">
+        <source> Built an energy bill processing solution with <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>OCR (AWS Textract)<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">56,57</context>
+          <context context-type="linenumber">87,90</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4621559586946846905" datatype="html">
-        <source>Developed the FIDC engine using <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>C# and .NET Core<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+      <trans-unit id="7750925177710358463" datatype="html">
+        <source> Developed the FIDC engine using <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>C# and .NET Core<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/experience/experience.component.html</context>
-          <context context-type="linenumber">57,59</context>
+          <context context-type="linenumber">91,93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2596153296174080850" datatype="html">
-        <source>© <x id="INTERPOLATION" equiv-text="{{ 2025 }}"/> Vinícius Nunes Martins. All rights reserved.</source>
+        <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> Vinícius Nunes Martins. All rights reserved.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/footer/footer.component.html</context>
           <context context-type="linenumber">2,4</context>
@@ -174,112 +174,466 @@
         <source> DevSecOps Engineer | Information Security Committee Member | Backend Developer </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/header/header.component.html</context>
-          <context context-type="linenumber">11,12</context>
+          <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2827625328832187810" datatype="html">
         <source>São Paulo - SP</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/header/header.component.html</context>
-          <context context-type="linenumber">17,18</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1666220626053137994" datatype="html">
+        <source> Choose Language </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/header/language-selector/language-selector.component.html</context>
+          <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7949354029476198233" datatype="html">
         <source>Featured Projects</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5375744195399715737" datatype="html">
-        <source>Energy Calculation Engine</source>
+      <trans-unit id="5458681948345457094" datatype="html">
+        <source> Energy Calculation Engine </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">12,13</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8608727589470078286" datatype="html">
-        <source>Simulation system for the free energy market, processing large volumes of data.</source>
+      <trans-unit id="6381830437211553648" datatype="html">
+        <source> BTG Pactual · Free Energy Market </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">13,14</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6147255427610661813" datatype="html">
-        <source>Pet Shop Platform</source>
+      <trans-unit id="8267478356019757021" datatype="html">
+        <source> Simulation system for the free energy market, processing large volumes of data. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">20,21</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7108817702850660287" datatype="html">
-        <source>Complete management solution with mobile and web apps, integrating scheduling and sales.</source>
+      <trans-unit id="3192064686378185385" datatype="html">
+        <source> Architecture </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">21,22</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">289</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">375</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">453</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1911390180773218154" datatype="html">
-        <source>Custom Operating System</source>
+      <trans-unit id="2942347007463181521" datatype="html">
+        <source> Simulation and pricing engine exposed as a Python/FastAPI service on AWS, decoupling data ingestion from calculation routines to keep the core testable and scalable. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">28,29</context>
+          <context context-type="linenumber">52,53</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2345270521372065696" datatype="html">
-        <source>Academic project focused on understanding operating system and kernel fundamentals.</source>
+      <trans-unit id="8329806421103609321" datatype="html">
+        <source> Challenges resolved </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
-          <context context-type="linenumber">29,30</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">222</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">387</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">465</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="766748540568495656" datatype="html">
+        <source> Processing high data volumes without slowing down each simulation run. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8808483580471278831" datatype="html">
+        <source> Keeping calculation models maintainable as market rules changed frequently. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5863280141007311392" datatype="html">
+        <source> Impact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">240</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">320</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">405</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">483</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4714644074831738924" datatype="html">
+        <source> Shorter turnaround for market scenario runs, supporting faster decisions. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="850268173672518847" datatype="html">
+        <source> Multi-Cloud Kubernetes Architecture </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8834351063582363937" datatype="html">
+        <source> Softfocus · Cloud Infrastructure </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2520828241069846694" datatype="html">
+        <source> Orchestration of EKS and OKE clusters using Terraform and Karmada for high availability. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8638724087670252873" datatype="html">
+        <source> Federated multi-cloud platform spanning AWS EKS and Oracle OKE, provisioned as infrastructure as code with Terraform and governed by a Karmada control plane for high availability. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">133,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3516638947968437823" datatype="html">
+        <source> Removing dependency on a single cloud provider without duplicating operational effort. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">148,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8806156657154746460" datatype="html">
+        <source> Keeping clusters reproducible and auditable through infrastructure as code. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5465156204295970641" datatype="html">
+        <source> Workloads stay available even if an entire cloud provider fails. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4291373385152872018" datatype="html">
+        <source> One operating model to deploy across different providers. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3080004775029339332" datatype="html">
+        <source> Custom Operating System </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5256509648157597619" datatype="html">
+        <source>Kernel &amp; Systems</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">192,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8970996769969269911" datatype="html">
+        <source> Academic project focused on understanding operating system and kernel fundamentals. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3373448043796585805" datatype="html">
+        <source> Educational kernel written from scratch, covering boot, memory management, process scheduling and interrupts directly on the hardware. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">213,214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1797496407198074278" datatype="html">
+        <source> Implementing context switching, memory and device handling with no OS underneath. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3839511021509740642" datatype="html">
+        <source> Debugging low-level code without the usual runtime tooling. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1640898422539047969" datatype="html">
+        <source> Hands-on understanding of how operating systems and kernels really work. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5898801417302858615" datatype="html">
+        <source> Security Pipeline Automation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">269</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4082971717712907580" datatype="html">
+        <source>Softfocus · DevSecOps</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">271,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8806652105555430038" datatype="html">
+        <source> Automated SAST/DAST pipelines and centralized authentication ensuring GDPR compliance. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">273</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5246366265154190282" datatype="html">
+        <source> Security checks embedded in the delivery flow — SAST with Sonar/Horusec and DAST with OWASP ZAP — with results centralized in ELK and identity unified through Keycloak single sign-on. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">292,293</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="257245278175410080" datatype="html">
+        <source> Catching vulnerabilities early without slowing development teams down. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2486416999311951039" datatype="html">
+        <source> Centralizing authentication and audit evidence across many applications. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">310</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9012422475973042885" datatype="html">
+        <source> Security is verified automatically on every delivery. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">325</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3591153759683986891" datatype="html">
+        <source> A consistent path toward LGPD, NIST, CIS, ISO 27001 and OWASP compliance. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4961040005995488723" datatype="html">
+        <source> Automated OCR Data Pipeline </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">352</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6627141583057890741" datatype="html">
+        <source> BTG Pactual · Data Pipeline </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">355</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4295873786311153787" datatype="html">
+        <source> Energy bill processing solution using Amazon Textract and Gaussian curve algorithms for data adjustment. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">358,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="913531897509983906" datatype="html">
+        <source> Document pipeline that reads energy bills with Amazon Textract and refines the extracted values using Gaussian-curve adjustment algorithms. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">378,379</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="379373429983840956" datatype="html">
+        <source> Bills arrive in varied layouts, which reduces raw OCR accuracy. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">392</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2735842397257005644" datatype="html">
+        <source> Making extracted data reliable enough for fully automated downstream steps. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">395</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7809276219132301674" datatype="html">
+        <source> Higher extraction accuracy with less manual correction effort. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1584971729600236783" datatype="html">
+        <source>FIDC Credit Engine</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">433,434</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="322526776638565537" datatype="html">
+        <source>BTG Pactual · Fintech</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">434,435</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5412296320772301129" datatype="html">
+        <source> High-performance backend for credit rights validation and bank integration using .NET Core and AWS. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">436,437</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="422432292522963333" datatype="html">
+        <source> High-throughput validation backend for credit rights written in C#/.NET Core on AWS and integrated with banking systems for receivables checks. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">456,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2352901514160738622" datatype="html">
+        <source> Validating large volumes of credit rights under tight time constraints. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">470</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4982503239993850996" datatype="html">
+        <source> Integrating reliably with several external banking APIs. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">473</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5763308257238922532" datatype="html">
+        <source> Faster and safer credit validation cycles for fund operations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/whoami/components/projects/projects.component.html</context>
+          <context context-type="linenumber">488</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1405389496528560682" datatype="html">
         <source>Technical Skills</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7154725178623032368" datatype="html">
-        <source>Cloud &amp; Infrastructure</source>
+      <trans-unit id="1179219072176396879" datatype="html">
+        <source> Cloud &amp; Infrastructure </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
-          <context context-type="linenumber">10,11</context>
+          <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="825407853446795559" datatype="html">
-        <source>Security &amp; Compliance</source>
+      <trans-unit id="5115076183184347824" datatype="html">
+        <source> Security &amp; Compliance </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
-          <context context-type="linenumber">24,25</context>
+          <context context-type="linenumber">57,58</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5388919734763848750" datatype="html">
-        <source>Data &amp; Messaging</source>
+      <trans-unit id="5545973378054357469" datatype="html">
+        <source> Data &amp; Messaging </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
-          <context context-type="linenumber">38,39</context>
+          <context context-type="linenumber">99,100</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8743664484276132976" datatype="html">
-        <source>Languages &amp; Frameworks</source>
+      <trans-unit id="3666531370399542867" datatype="html">
+        <source> Languages &amp; Frameworks </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/skills/skills.component.html</context>
-          <context context-type="linenumber">52,53</context>
+          <context context-type="linenumber">141,142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2259163344411295406" datatype="html">
         <source>Professional Summary</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/summary/summary.component.html</context>
-          <context context-type="linenumber">4,5</context>
+          <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="538344300760033277" datatype="html">
         <source> I work as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;text-indigo-400&quot;&gt;"/>DevSecOps at Softfocus<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, playing a key role in the <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>migration to Kubernetes<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> and the implementation of <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>centralized authentication systems<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. My team contributed to the transition of the database to an internally managed solution, <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;text-white&quot;&gt;"/>reinforcing security and operational efficiency<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. My focus includes developing APIs to optimize development and operations processes, as well as working on the information security committee to strengthen security practices. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/whoami/components/summary/summary.component.html</context>
-          <context context-type="linenumber">8,12</context>
+          <context context-type="linenumber">11,18</context>
         </context-group>
       </trans-unit>
     </body>
