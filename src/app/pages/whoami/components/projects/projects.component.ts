@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {
   bootstrapCloudCheck,
   bootstrapCpu,
@@ -15,6 +15,7 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
   imports: [NgIcon],
   templateUrl: './projects.component.html',
   host: { class: 'block' },
+  changeDetection: ChangeDetectionStrategy.OnPush,
   viewProviders: [
     provideIcons({
       bootstrapLightningCharge,

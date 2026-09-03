@@ -1,11 +1,10 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-summary',
   imports: [],
   templateUrl: './summary.component.html',
-  host: { class: 'block' }
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  host: { class: 'block' },
 })
-export class SummaryComponent {
-
-}
+export class SummaryComponent {}
