@@ -10,6 +10,16 @@
   </div>
 
   <div class="max-w-4xl mx-auto space-y-6">
+    <!-- Terminal prompt kicker -->
+    <p
+      class="font-mono text-sm md:text-base text-slate-500 flex items-center justify-center gap-2"
+      aria-hidden="true"
+    >
+      <span class="text-indigo-400">$</span>
+      <span>whoami</span>
+      <span class="caret-blink inline-block w-[0.55em] h-[1.1em] bg-indigo-400/70"></span>
+    </p>
+
     <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-white">
       Vinícius
       <span class="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400"
@@ -22,7 +32,7 @@
     </p>
 
     <address
-      class="flex flex-wrap justify-center items-center gap-4 text-sm md:text-base text-slate-400 not-italic"
+      class="font-mono text-sm md:text-base text-slate-400 not-italic flex flex-wrap justify-center items-center gap-x-4 gap-y-2"
     >
       <div class="flex items-center gap-2">
         <ng-icon name="bootstrapGeoAlt" class="text-indigo-400 text-base"></ng-icon>
