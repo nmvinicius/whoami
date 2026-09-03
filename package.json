@@ -24,14 +24,17 @@
     ]
   },
   "private": true,
+  "engines": {
+    "node": "^26.0.0"
+  },
   "packageManager": "npm@11.5.1",
   "dependencies": {
-    "@angular/common": "^21.0.0",
-    "@angular/compiler": "^21.0.0",
-    "@angular/core": "^21.0.0",
-    "@angular/forms": "^21.0.0",
-    "@angular/platform-browser": "^21.0.0",
-    "@angular/router": "^21.0.0",
+    "@angular/common": "^22.1.5",
+    "@angular/compiler": "^22.1.5",
+    "@angular/core": "^22.1.5",
+    "@angular/forms": "^22.1.5",
+    "@angular/platform-browser": "^22.1.5",
+    "@angular/router": "^22.1.5",
     "@ng-icons/bootstrap-icons": "^33.0.0",
     "@ng-icons/core": "^33.0.0",
     "@ng-icons/feather-icons": "^33.0.0",
@@ -40,10 +43,10 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^21.0.2",
-    "@angular/cli": "^21.0.2",
-    "@angular/compiler-cli": "^21.0.0",
-    "@angular/localize": "^21.0.3",
+    "@angular/build": "^22.1.7",
+    "@angular/cli": "^22.1.7",
+    "@angular/compiler-cli": "^22.1.5",
+    "@angular/localize": "^22.1.5",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@tailwindcss/postcss": "^4.1.12",
@@ -51,7 +54,7 @@
     "jsdom": "^27.1.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.12",
-    "typescript": "~5.9.2",
+    "typescript": "~6.0.3",
     "vitest": "^4.0.8"
   }
 }
