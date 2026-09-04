@@ -4,8 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && npm run build:copy-root",
+    "build": "ng build && npm run llms && npm run build:copy-root && npm run finalize",
     "build:copy-root": "cp -r dist/whoami/browser/en/* dist/whoami/browser/",
+    "llms": "node scripts/generate-llms.mjs",
+    "finalize": "node scripts/finalize-index.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "i18n:extract": "ng extract-i18n --output-path src/locales",
