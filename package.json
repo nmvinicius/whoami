@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "i18n:extract": "ng extract-i18n --output-path src/locales",
+    "i18n:coverage": "sh scripts/i18n-coverage.sh",
     "prepare": "husky"
   },
   "prettier": {
@@ -49,11 +50,11 @@
     "@angular/localize": "^22.1.5",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/postcss": "^4.3.3",
     "husky": "^9.1.7",
     "jsdom": "^27.1.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.12",
+    "tailwindcss": "^4.3.3",
     "typescript": "~6.0.3",
     "vitest": "^4.0.8"
   }

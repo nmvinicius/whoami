@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ng serve (pt-BR)",
+      "name": "ng serve (pt)",
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start:pt",
@@ -15,8 +15,16 @@
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start:en",
-      "postDebugTask": "terminate: 4201",
-      "url": "http://localhost:4201/"
+      "postDebugTask": "terminate: 4200",
+      "url": "http://localhost:4200/"
+    },
+    {
+      "name": "ng serve (es)",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: start:es",
+      "postDebugTask": "terminate: 4200",
+      "url": "http://localhost:4200/"
     },
     {
       "name": "ng test",

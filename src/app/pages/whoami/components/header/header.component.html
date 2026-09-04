@@ -1,15 +1,20 @@
-<header class="relative pt-20 pb-12 px-6 text-center overflow-hidden">
-  <!-- Background Glow -->
-  <div
-    class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-64 bg-indigo-600/20 blur-[100px] rounded-full -z-10"
-  ></div>
-
+<header class="relative pt-20 pb-12 px-6 text-center">
   <!-- Language Selector -->
   <div class="absolute top-6 right-6 z-50">
     <app-language-selector></app-language-selector>
   </div>
 
   <div class="max-w-4xl mx-auto space-y-6">
+    <!-- Terminal prompt kicker -->
+    <p
+      class="font-mono text-sm md:text-base text-slate-500 flex items-center justify-center gap-2"
+      aria-hidden="true"
+    >
+      <span class="text-indigo-400">$</span>
+      <span>whoami</span>
+      <span class="caret-blink inline-block w-[0.55em] h-[1.1em] bg-indigo-400/70"></span>
+    </p>
+
     <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-white">
       Vinícius
       <span class="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-cyan-400"
@@ -22,7 +27,7 @@
     </p>
 
     <address
-      class="flex flex-wrap justify-center items-center gap-4 text-sm md:text-base text-slate-400 not-italic"
+      class="font-mono text-sm md:text-base text-slate-400 not-italic flex flex-wrap justify-center items-center gap-x-4 gap-y-2"
     >
       <div class="flex items-center gap-2">
         <ng-icon name="bootstrapGeoAlt" class="text-indigo-400 text-base"></ng-icon>
@@ -50,14 +55,14 @@
       <a
         href="https://www.linkedin.com/in/viniciusnunesmartins"
         target="_blank"
-        class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50"
+        class="flex items-center justify-center p-2 rounded-md border border-slate-700/60 bg-slate-900 text-slate-300 hover:border-indigo-400/60 hover:text-indigo-400 transition-colors"
       >
         <ng-icon name="bootstrapLinkedin" class="text-xl"></ng-icon>
       </a>
       <a
         href="https://github.com/nmvinicius"
         target="_blank"
-        class="flex items-center justify-center p-2 rounded-full bg-slate-800/50 hover:bg-indigo-600/20 hover:text-indigo-400 transition-all border border-slate-800 hover:border-indigo-500/50"
+        class="flex items-center justify-center p-2 rounded-md border border-slate-700/60 bg-slate-900 text-slate-300 hover:border-indigo-400/60 hover:text-indigo-400 transition-colors"
       >
         <ng-icon name="bootstrapGithub" class="text-xl"></ng-icon>
       </a>

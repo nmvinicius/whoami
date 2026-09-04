@@ -1,7 +1,7 @@
 <div class="relative inline-block text-left">
   <button
     type="button"
-    class="flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/40 hover:bg-slate-800/60 border border-slate-700/50 hover:border-indigo-500/50 transition-all text-slate-300 hover:text-white text-sm backdrop-blur-md shadow-lg"
+    class="flex items-center gap-2 px-4 py-2 rounded-md border border-slate-700/60 bg-slate-900 text-slate-300 hover:border-indigo-400/60 hover:text-white transition-colors text-sm"
     id="language-menu-button"
     [attr.aria-expanded]="isOpen()"
     aria-haspopup="true"
@@ -20,11 +20,12 @@
 
   @if (isOpen()) {
     <div
-      class="absolute right-0 mt-3 w-48 rounded-2xl bg-slate-900/95 border border-slate-800 shadow-2xl backdrop-blur-xl p-2 z-50 ring-1 ring-white/10 transition-all duration-200 ease-out opacity-100 scale-100 translate-y-0 starting:opacity-0 starting:scale-95 starting:-translate-y-2"
+      class="absolute right-0 mt-3 w-48 rounded-md border border-slate-700/60 bg-slate-950 p-2 z-50 transition-opacity duration-150 ease-out opacity-100 starting:opacity-0"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="language-menu-button"
       tabindex="-1"
+      (keydown.escape)="isOpen.set(false)"
     >
       <div
         class="px-3 py-2 mb-1 text-[10px] font-bold text-slate-500 uppercase tracking-widest"
@@ -36,7 +37,7 @@
       <div class="space-y-1">
         @for (lang of languages; track lang.code) {
           <button
-            class="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm transition-all duration-200 group relative overflow-hidden"
+            class="w-full flex items-center justify-between px-3 py-2.5 rounded-md text-sm transition-colors duration-150 group relative overflow-hidden"
             [class.text-indigo-400]="isCurrent(lang.code)"
             [class.bg-indigo-600/10]="isCurrent(lang.code)"
             [class.text-slate-300]="!isCurrent(lang.code)"
@@ -56,16 +57,19 @@
             </div>
 
             @if (isCurrent(lang.code)) {
-              <div
-                class="w-1.5 h-1.5 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.8)] relative z-10"
-              ></div>
+              <div class="w-1.5 h-1.5 rounded-full bg-indigo-500 relative z-10"></div>
             }
           </button>
         }
       </div>
     </div>
 
-    <!-- Click outside to close -->
-    <div class="fixed inset-0 z-40 bg-transparent" (click)="isOpen.set(false)"></div>
+    <!-- Dismiss: outside click (pointer) or Escape (keyboard) -->
+    <div
+      class="fixed inset-0 z-40 bg-transparent"
+      (click)="isOpen.set(false)"
+      (keydown.escape)="isOpen.set(false)"
+      aria-hidden="true"
+    ></div>
   }
 </div>

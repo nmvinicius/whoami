@@ -1,97 +1,496 @@
 <section>
-  <h2 class="text-2xl font-semibold text-white mb-6 flex items-center gap-3">
-    <span class="w-8 h-1 bg-indigo-500 rounded-full"></span>
-    <span i18n>Featured Projects</span>
-  </h2>
+  <div class="flex items-center gap-3 mb-6 md:mb-8">
+    <span class="font-mono text-sm text-indigo-400/90" aria-hidden="true">04.</span>
+    <h2 class="text-2xl font-semibold text-white tracking-tight">
+      <span i18n>Featured Projects</span>
+    </h2>
+    <span class="hidden sm:block h-px flex-1 bg-slate-800" aria-hidden="true"></span>
+  </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="space-y-6">
+    <!-- Energy Calculation Engine -->
     <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
     >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <ng-icon name="bootstrapLightningCharge" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Energy Calculation Engine</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Simulation system for the free energy market, processing large volumes of data.
-      </p>
-    </article>
-    <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
-    >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para nuvem/infraestrutura -->
-        <ng-icon name="bootstrapCloudCheck" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>
-        Multi-Cloud Kubernetes Architecture
-      </h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Orchestration of EKS and OKE clusters using Terraform and Karmada for high availability.
-      </p>
-    </article>
-    <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
-    >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <ng-icon name="bootstrapCpu" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Custom Operating System</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Academic project focused on understanding operating system and kernel fundamentals.
-      </p>
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon
+            name="bootstrapLightningCharge"
+            class="text-indigo-400 text-xl"
+            aria-hidden="true"
+          ></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>
+            Energy Calculation Engine
+          </h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>
+            BTG Pactual · Free Energy Market
+          </p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            Simulation system for the free energy market, processing large volumes of data.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/energy-market/simulation</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            Simulation and pricing engine exposed as a Python/FastAPI service on AWS, decoupling
+            data ingestion from calculation routines to keep the core testable and scalable.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Processing high data volumes without slowing down each simulation run.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Keeping calculation models maintainable as market rules changed frequently.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Shorter turnaround for market scenario runs, supporting faster decisions.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
     </article>
 
+    <!-- Multi-Cloud Kubernetes Architecture -->
     <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
     >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para segurança -->
-        <ng-icon name="bootstrapShieldLock" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Security Pipeline Automation</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Automated SAST/DAST pipelines and centralized authentication ensuring GDPR compliance.
-      </p>
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon
+            name="bootstrapCloudCheck"
+            class="text-indigo-400 text-xl"
+            aria-hidden="true"
+          ></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>
+            Multi-Cloud Kubernetes Architecture
+          </h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>
+            Softfocus · Cloud Infrastructure
+          </p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            Orchestration of EKS and OKE clusters using Terraform and Karmada for high availability.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/cloud/super-cluster</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            Federated multi-cloud platform spanning AWS EKS and Oracle OKE, provisioned as
+            infrastructure as code with Terraform and governed by a Karmada control plane for high
+            availability.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Removing dependency on a single cloud provider without duplicating operational
+                effort.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Keeping clusters reproducible and auditable through infrastructure as code.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Workloads stay available even if an entire cloud provider fails.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                One operating model to deploy across different providers.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
     </article>
 
+    <!-- Custom Operating System -->
     <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
     >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para documentos/dados -->
-        <ng-icon name="bootstrapFileEarmarkText" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>Automated OCR Data Pipeline</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        Energy bill processing solution using Amazon Textract and Gaussian curve algorithms for data
-        adjustment.
-      </p>
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon name="bootstrapCpu" class="text-indigo-400 text-xl" aria-hidden="true"></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>
+            Custom Operating System
+          </h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>Kernel &amp; Systems</p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            Academic project focused on understanding operating system and kernel fundamentals.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/os/kernel</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            Educational kernel written from scratch, covering boot, memory management, process
+            scheduling and interrupts directly on the hardware.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Implementing context switching, memory and device handling with no OS underneath.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Debugging low-level code without the usual runtime tooling.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Hands-on understanding of how operating systems and kernels really work.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
     </article>
+
+    <!-- Security Pipeline Automation -->
     <article
-      class="group bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:bg-slate-800/50 hover:border-indigo-500/50 transition-all cursor-default"
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
     >
-      <div
-        class="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-indigo-500/20 transition-colors"
-      >
-        <!-- Ícone sugerido para financeiro/analytics -->
-        <ng-icon name="bootstrapGraphUpArrow" class="text-indigo-400 text-2xl"></ng-icon>
-      </div>
-      <h3 class="text-lg font-semibold text-white mb-2" i18n>FIDC Credit Engine</h3>
-      <p class="text-slate-400 text-sm" i18n>
-        High-performance backend for credit rights validation and bank integration using .NET Core
-        and AWS.
-      </p>
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon
+            name="bootstrapShieldLock"
+            class="text-indigo-400 text-xl"
+            aria-hidden="true"
+          ></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>
+            Security Pipeline Automation
+          </h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>Softfocus · DevSecOps</p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            Automated SAST/DAST pipelines and centralized authentication ensuring GDPR compliance.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/platform/security-pipeline</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            Security checks embedded in the delivery flow — SAST with Sonar/Horusec and DAST with
+            OWASP ZAP — with results centralized in ELK and identity unified through Keycloak single
+            sign-on.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Catching vulnerabilities early without slowing development teams down.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Centralizing authentication and audit evidence across many applications.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Security is verified automatically on every delivery.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                A consistent path toward LGPD, NIST, CIS, ISO 27001 and OWASP compliance.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </article>
+
+    <!-- Automated OCR Data Pipeline -->
+    <article
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
+    >
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon
+            name="bootstrapFileEarmarkText"
+            class="text-indigo-400 text-xl"
+            aria-hidden="true"
+          ></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>
+            Automated OCR Data Pipeline
+          </h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>
+            BTG Pactual · Data Pipeline
+          </p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            Energy bill processing solution using Amazon Textract and Gaussian curve algorithms for
+            data adjustment.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/energy-bills/ocr</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            Document pipeline that reads energy bills with Amazon Textract and refines the extracted
+            values using Gaussian-curve adjustment algorithms.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Bills arrive in varied layouts, which reduces raw OCR accuracy.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Making extracted data reliable enough for fully automated downstream steps.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Higher extraction accuracy with less manual correction effort.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </article>
+
+    <!-- FIDC Credit Engine -->
+    <article
+      class="border border-slate-700/60 bg-slate-900 rounded-md p-6 md:p-7 hover:border-indigo-400/40 transition-colors"
+    >
+      <header class="flex items-start gap-4">
+        <div
+          class="shrink-0 w-11 h-11 bg-indigo-500/10 rounded-md flex items-center justify-center"
+        >
+          <ng-icon
+            name="bootstrapGraphUpArrow"
+            class="text-indigo-400 text-xl"
+            aria-hidden="true"
+          ></ng-icon>
+        </div>
+        <div class="min-w-0 flex-1">
+          <h3 class="text-lg font-semibold text-white tracking-tight" i18n>FIDC Credit Engine</h3>
+          <p class="font-mono text-[13px] text-indigo-400/90 mt-0.5" i18n>BTG Pactual · Fintech</p>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed" i18n>
+            High-performance backend for credit rights validation and bank integration using .NET
+            Core and AWS.
+          </p>
+        </div>
+        <span
+          class="hidden md:block shrink-0 font-mono text-[11px] text-slate-600 pt-1 select-none"
+          aria-hidden="true"
+          >~/receivables/fidc-engine</span
+        >
+      </header>
+
+      <dl class="mt-6 pt-6 border-t border-slate-800 space-y-5">
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Architecture
+          </dt>
+          <dd class="text-sm leading-relaxed text-slate-300" i18n>
+            High-throughput validation backend for credit rights written in C#/.NET Core on AWS and
+            integrated with banking systems for receivables checks.
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Challenges resolved
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Validating large volumes of credit rights under tight time constraints.
+              </li>
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Integrating reliably with several external banking APIs.
+              </li>
+            </ul>
+          </dd>
+        </div>
+        <div class="md:grid md:grid-cols-[170px_1fr] md:gap-6">
+          <dt
+            class="font-mono text-[11px] uppercase tracking-[0.16em] text-indigo-400/90 mb-1.5 md:mb-0 md:pt-0.5"
+            i18n
+          >
+            Impact
+          </dt>
+          <dd>
+            <ul class="space-y-2 list-disc list-outside ml-4 marker:text-indigo-500/50">
+              <li class="text-sm leading-relaxed text-slate-300" i18n>
+                Faster and safer credit validation cycles for fund operations.
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
     </article>
   </div>
 </section>
