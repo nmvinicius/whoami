@@ -33,6 +33,21 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Verify llms artifacts
+        run: |
+          for f in \
+            dist/whoami/browser/llms.txt \
+            dist/whoami/browser/llms-full.txt \
+            dist/whoami/browser/en/llms.txt \
+            dist/whoami/browser/en/llms-full.txt \
+            dist/whoami/browser/pt/llms.txt \
+            dist/whoami/browser/pt/llms-full.txt \
+            dist/whoami/browser/es/llms.txt \
+            dist/whoami/browser/es/llms-full.txt; do
+            test -s "$f" || { echo "Erro: arquivo ausente/vazio: $f"; exit 1; }
+          done
+          echo "OK: llms.txt / llms-full.txt gerados (raiz=en + en/pt/es)"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
