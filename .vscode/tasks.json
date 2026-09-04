@@ -3,27 +3,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
-      "script": "start",
-      "isBackground": true,
-      "problemMatcher": {
-        "owner": "typescript",
-        "pattern": "$tsc",
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
-        }
-      }
-    },
-    {
       "type": "shell",
       "label": "npm: start:pt",
-      "command": "ng serve --configuration=pt",
+      "command": "npm run ng -- serve --configuration=pt",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
@@ -42,7 +24,26 @@
     {
       "type": "shell",
       "label": "npm: start:en",
-      "command": "ng serve --configuration=en --port 4201",
+      "command": "npm run ng -- serve --configuration=en",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "(.*?)"
+          },
+          "endsPattern": {
+            "regexp": "bundle generation complete"
+          }
+        }
+      }
+    },
+    {
+      "type": "shell",
+      "label": "npm: start:es",
+      "command": "npm run ng -- serve --configuration=es",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
@@ -80,15 +81,6 @@
       "label": "terminate: 4200",
       "type": "shell",
       "command": "fuser -k 4200/tcp || true",
-      "presentation": {
-        "reveal": "silent",
-        "panel": "shared"
-      }
-    },
-    {
-      "label": "terminate: 4201",
-      "type": "shell",
-      "command": "fuser -k 4201/tcp || true",
       "presentation": {
         "reveal": "silent",
         "panel": "shared"
